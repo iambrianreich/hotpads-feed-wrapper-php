@@ -1,0 +1,783 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="79a5a73d-d151-47e4-9aff-a72b7c6bb2d0" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/php-test-framework.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ApartmentCommunityProperty.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Company.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Feed.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/IProperty.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/IndividualProperty.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Property/Address.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Property/Geolocation.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Property/IIncomeRestriction.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Property/IIncomeRestrictions.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Property/IListingTag.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Property/IListingType.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Property/IPropertyType.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Property/IRestriction.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Property/IRestrictions.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Property/ListingPhoto.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Property/ListingType/Corporate.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Property/ListingType/Rental.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Property/ListingType/Room.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Property/ListingType/Sublet.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Property/ListingType/Vacation.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Property/OpenHouse.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Property/Options/Type.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Property/PriceFrequency/Day.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Property/PriceFrequency/IPriceFrequency.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Property/PriceFrequency/Month.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Property/PriceFrequency/Once.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Property/PriceFrequency/Week.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Property/PropertyType/Condo.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Property/PropertyType/House.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Property/PropertyType/TownHouse.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Property/ProviderType/Agent.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Property/ProviderType/BrokerExclusives.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Property/ProviderType/BrokerOpen.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Property/ProviderType/IProviderType.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Property/ProviderType/Locator.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Property/ProviderType/PropertyManagementSoftware.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Property/ProviderType/PropertyManager.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Property/Restrictions.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Property/SpecialOffer.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Property/Tags/AbstractBooleanTag.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Property/Tags/AbstractFiniteOptionTag.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Property/Tags/AbstractIntegerTag.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Property/Tags/AbstractNumericTag.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Property/Tags/AbstractStringTag.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Property/Tags/AbstractTag.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Property/Tags/ArchitecturalStyleTag.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Property/Tags/CatsAllowedTag.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Property/Tags/CoolingSystemTag.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Property/Tags/DogsAllowedTag.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Property/Tags/ElementarySchoolTag.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Property/Tags/ExteriorTypeTag.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Property/Tags/FloorCoveringTag.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Property/Tags/HeatingFuelTag.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Property/Tags/HeatingSystemTag.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Property/Tags/HighSchoolTag.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Property/Tags/LargeDogsAllowedTag.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Property/Tags/LaundryTag.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Property/Tags/LotSizeTag.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Property/Tags/MiddleSchoolTag.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Property/Tags/MlsListingIdTag.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Property/Tags/ModelAmenitySelectTag.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Property/Tags/ModelAmenityTag.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Property/Tags/ParkingSpacesCovered.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Property/Tags/ParkingSpacesTag.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Property/Tags/ParkingTypeTag.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Property/Tags/PropertyAmenityTag.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Property/Tags/RentIncludesTag.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Property/Tags/RoofTypeTag.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Property/Tags/RoomCountTag.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Property/Tags/RoomTypeTag.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Property/Tags/SchoolDistrictTag.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Property/Tags/SmallDogsAllowedTag.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Property/Tags/ViewTypeTag.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Property/Tags/YearBuiltTag.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Property/UtilityCosts.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/RoommateListingProperty.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/unit/Property/PriceFrequency/MonthTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/unit/Property/PriceFrequency/OnceTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/unit/Property/PriceFrequency/WeekTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/unit/Property/ProviderType/BrokerExclusivesTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/unit/Property/ProviderType/BrokerOpenTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/unit/Property/ProviderType/LocatorTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/unit/Property/ProviderType/PropertyManagementSoftwareTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/unit/Property/ProviderType/PropertyManagerTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/unit/Property/Tags/FloorCoveringTagTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/unit/Property/Tags/HeatingFuelTagTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/unit/Property/Tags/HeatingSystemTagTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/unit/Property/Tags/HighSchoolTagTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/unit/Property/Tags/LargeDogsAllowedTagTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/unit/Property/Tags/LaundryTagTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/unit/Property/Tags/MiddleSchoolTagTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/unit/Property/Tags/MlsListingIdTagTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/unit/Property/Tags/ModelAmenitySelectTagTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/unit/Property/Tags/ModelAmenityTagTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/unit/Property/Tags/ParkingSpacesCoveredTagTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/unit/Property/Tags/ParkingSpacesTagTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/unit/Property/Tags/ParkingTypeTagTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/unit/Property/Tags/PropertyAmenityTagTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/unit/Property/Tags/RentIncludesTagTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/unit/Property/Tags/RoofTypeTagTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/unit/Property/Tags/RoomCountTagTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/unit/Property/Tags/RoomTypeTagTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/unit/Property/Tags/SchoolDistrictTagTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/unit/Property/Tags/SmallDogsAllowedTagTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/unit/Property/Tags/ViewTypeTagTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/unit/Property/Tags/YearBuiltTagTest.php" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/tests/unit/IndividualPropertyTest.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="815">
+              <caret line="209" column="72" selection-start-line="209" selection-start-column="72" selection-end-line="209" selection-end-column="72" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/IndividualProperty.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="629">
+              <caret line="37" column="7" selection-start-line="37" selection-start-column="7" selection-end-line="37" selection-end-column="7" />
+              <folding>
+                <element signature="e#56#89#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ApartmentCommunityProperty.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="9" selection-start-line="9" selection-end-line="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/RoommateListingProperty.php">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/IProperty.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="15" column="1" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Feed.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="16" selection-start-line="16" selection-end-line="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>namespace App</find>
+      <find>use App</find>
+      <find>namespace RWC\HotPads\Property\Property\</find>
+      <find>namespace RWC\HotPads\Property\Property</find>
+      <find>setSixPer</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>namespace RWC\HotPads</replace>
+      <replace>use RWC\HotPads</replace>
+      <replace>namespace RWC\HotPads\Property\</replace>
+    </replaceStrings>
+    <dirStrings>
+      <dir>C:\Gitrepos\reichwebconsulting\hotpads-feed-wrapper-php\src</dir>
+    </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/Property/Geolocation.php" />
+        <option value="$PROJECT_DIR$/tests/unit/Property/OpenHouseTest.php" />
+        <option value="$PROJECT_DIR$/src/Property/OpenHouse.php" />
+        <option value="$PROJECT_DIR$/src/Property/Restrictions.php" />
+        <option value="$PROJECT_DIR$/tests/unit/Property/RestrictionsTest.php" />
+        <option value="$PROJECT_DIR$/src/Property/UtilityCosts.php" />
+        <option value="$PROJECT_DIR$/tests/unit/Property/UtilityCostTest.php" />
+        <option value="$PROJECT_DIR$/src/Company.php" />
+        <option value="$PROJECT_DIR$/tests/unit/CompanyTest.php" />
+        <option value="$PROJECT_DIR$/src/Feed.php" />
+        <option value="$PROJECT_DIR$/src/Property/SpecialOffer.php" />
+        <option value="$PROJECT_DIR$/tests/unit/Property/SpecialOfferTest.php" />
+        <option value="$PROJECT_DIR$/src/Property/ListingPhoto.php" />
+        <option value="$PROJECT_DIR$/tests/unit/Property/ListingPhotoTest.php" />
+        <option value="$PROJECT_DIR$/src/Property/PriceFrequency/IPriceFrequency.php" />
+        <option value="$PROJECT_DIR$/src/Property/PriceFrequency/Once.php" />
+        <option value="$PROJECT_DIR$/src/Property/PriceFrequency/Month.php" />
+        <option value="$PROJECT_DIR$/src/Property/PriceFrequency/Week.php" />
+        <option value="$PROJECT_DIR$/src/Property/PriceFrequency/Day.php" />
+        <option value="$PROJECT_DIR$/src/Property/ProviderType/IProviderType.php" />
+        <option value="$PROJECT_DIR$/src/Property/ProviderType/PropertyManager.php" />
+        <option value="$PROJECT_DIR$/src/Property/ProviderType/PropertyManagementSoftware.php" />
+        <option value="$PROJECT_DIR$/src/Property/ProviderType/Agent.php" />
+        <option value="$PROJECT_DIR$/src/Property/ProviderType/BrokerExclusives.php" />
+        <option value="$PROJECT_DIR$/src/Property/ProviderType/BrokerOpen.php" />
+        <option value="$PROJECT_DIR$/src/Property/ProviderType/Locator.php" />
+        <option value="$PROJECT_DIR$/src/Property.php" />
+        <option value="$PROJECT_DIR$/tests/unit/Property/PriceFrequency/DayTest.php" />
+        <option value="$PROJECT_DIR$/tests/unit/Property/PriceFrequency/MonthTest.php" />
+        <option value="$PROJECT_DIR$/tests/unit/Property/PriceFrequency/WeekTest.php" />
+        <option value="$PROJECT_DIR$/tests/unit/Property/PriceFrequency/OnceTest.php" />
+        <option value="$PROJECT_DIR$/tests/unit/Property/PriceFrequency/BrokerExclusivesTest.php" />
+        <option value="$PROJECT_DIR$/tests/unit/Property/ProviderType/BrokerOpenTest.php" />
+        <option value="$PROJECT_DIR$/tests/unit/Property/ProviderType/BrokerExclusivesTest.php" />
+        <option value="$PROJECT_DIR$/tests/unit/Property/ProviderType/AgentTest.php" />
+        <option value="$PROJECT_DIR$/tests/unit/Property/ProviderType/LocatorTest.php" />
+        <option value="$PROJECT_DIR$/tests/unit/Property/ProviderType/PropertyManagerTest.php" />
+        <option value="$PROJECT_DIR$/tests/unit/Property/ProviderType/PropertyManagementSoftwareTest.php" />
+        <option value="$PROJECT_DIR$/src/IProperty.php" />
+        <option value="$PROJECT_DIR$/composer.json" />
+        <option value="$PROJECT_DIR$/src/Property/IndividualProperty.php" />
+        <option value="$PROJECT_DIR$/src/Property/ListingType/Rental.php" />
+        <option value="$PROJECT_DIR$/src/Property/ListingType/Corporate.php" />
+        <option value="$PROJECT_DIR$/src/Property/ListingType/Sublet.php" />
+        <option value="$PROJECT_DIR$/src/Property/ListingType/Room.php" />
+        <option value="$PROJECT_DIR$/src/Property/ListingType/Vacation.php" />
+        <option value="$PROJECT_DIR$/src/Property/PropertyType/TownHouse.php" />
+        <option value="$PROJECT_DIR$/src/Property/PropertyType/Condo.php" />
+        <option value="$PROJECT_DIR$/src/Property/PropertyType/House.php" />
+        <option value="$PROJECT_DIR$/src/IndividualProperty.php" />
+        <option value="$PROJECT_DIR$/tests/unit/IndividualPropertyTest.php" />
+      </list>
+    </option>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration">
+    <include_path>
+      <path value="$PROJECT_DIR$/vendor/composer" />
+      <path value="$PROJECT_DIR$/vendor/hoa/exception" />
+      <path value="$PROJECT_DIR$/vendor/hoa/iterator" />
+      <path value="$PROJECT_DIR$/vendor/hoa/console" />
+      <path value="$PROJECT_DIR$/vendor/hoa/file" />
+      <path value="$PROJECT_DIR$/vendor/hoa/protocol" />
+      <path value="$PROJECT_DIR$/vendor/hoa/ustring" />
+      <path value="$PROJECT_DIR$/vendor/hoa/stream" />
+      <path value="$PROJECT_DIR$/vendor/hoa/consistency" />
+      <path value="$PROJECT_DIR$/vendor/hoa/event" />
+      <path value="$PROJECT_DIR$/vendor/symfony/console" />
+      <path value="$PROJECT_DIR$/vendor/symfony/event-dispatcher" />
+      <path value="$PROJECT_DIR$/vendor/symfony/css-selector" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-mbstring" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-ctype" />
+      <path value="$PROJECT_DIR$/vendor/symfony/contracts" />
+      <path value="$PROJECT_DIR$/vendor/symfony/browser-kit" />
+      <path value="$PROJECT_DIR$/vendor/symfony/finder" />
+      <path value="$PROJECT_DIR$/vendor/symfony/dom-crawler" />
+      <path value="$PROJECT_DIR$/vendor/symfony/yaml" />
+      <path value="$PROJECT_DIR$/vendor/ralouphie/getallheaders" />
+      <path value="$PROJECT_DIR$/vendor/symfony/process" />
+      <path value="$PROJECT_DIR$/vendor/behat/gherkin" />
+      <path value="$PROJECT_DIR$/vendor/psr/http-message" />
+      <path value="$PROJECT_DIR$/vendor/phar-io/manifest" />
+      <path value="$PROJECT_DIR$/vendor/myclabs/deep-copy" />
+      <path value="$PROJECT_DIR$/vendor/phpspec/prophecy" />
+      <path value="$PROJECT_DIR$/vendor/phar-io/version" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-timer" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-file-iterator" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-token-stream" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-text-template" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/phpunit" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-code-coverage" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/instantiator" />
+      <path value="$PROJECT_DIR$/vendor/theseer/tokenizer" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/global-state" />
+      <path value="$PROJECT_DIR$/vendor/facebook/webdriver" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/environment" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/comparator" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/recursion-context" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/exporter" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/object-reflector" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/object-enumerator" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/code-unit-reverse-lookup" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/resource-operations" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/version" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/diff" />
+      <path value="$PROJECT_DIR$/vendor/guzzlehttp/guzzle" />
+      <path value="$PROJECT_DIR$/vendor/webmozart/assert" />
+      <path value="$PROJECT_DIR$/vendor/guzzlehttp/promises" />
+      <path value="$PROJECT_DIR$/vendor/guzzlehttp/psr7" />
+      <path value="$PROJECT_DIR$/vendor/codeception/stub" />
+      <path value="$PROJECT_DIR$/vendor/codeception/phpunit-wrapper" />
+      <path value="$PROJECT_DIR$/vendor/phpdocumentor/reflection-docblock" />
+      <path value="$PROJECT_DIR$/vendor/codeception/codeception" />
+      <path value="$PROJECT_DIR$/vendor/phpdocumentor/reflection-common" />
+      <path value="$PROJECT_DIR$/vendor/phpdocumentor/type-resolver" />
+    </include_path>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="hotpads-feed-wrapper-php" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hotpads-feed-wrapper-php" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hotpads-feed-wrapper-php" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hotpads-feed-wrapper-php" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hotpads-feed-wrapper-php" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hotpads-feed-wrapper-php" type="462c0819:PsiDirectoryNode" />
+              <item name="tests" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hotpads-feed-wrapper-php" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hotpads-feed-wrapper-php" type="462c0819:PsiDirectoryNode" />
+              <item name="tests" type="462c0819:PsiDirectoryNode" />
+              <item name="unit" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../the_hauler_website" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Gitrepos\reichwebconsulting\hotpads-feed-wrapper-php\src" />
+      <recent name="C:\Gitrepos\reichwebconsulting\hotpads-feed-wrapper-php\src\Property" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Gitrepos\reichwebconsulting\hotpads-feed-wrapper-php\src\Property\PropertyType" />
+      <recent name="C:\Gitrepos\reichwebconsulting\hotpads-feed-wrapper-php\src\Property\ListingType" />
+      <recent name="C:\Gitrepos\reichwebconsulting\hotpads-feed-wrapper-php\tests\unit\Property\ProviderType" />
+      <recent name="C:\Gitrepos\reichwebconsulting\hotpads-feed-wrapper-php\tests\unit\Property\PriceFrequency" />
+      <recent name="C:\Gitrepos\reichwebconsulting\hotpads-feed-wrapper-php\src\Property\ProviderType" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="codeception.yml" type="CodeceptionConfigurationType" factoryName="Codeception">
+      <PhpTestRunnerSettings scope="ConfigurationFile" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="79a5a73d-d151-47e4-9aff-a72b7c6bb2d0" name="Default Changelist" comment="" />
+      <created>1557516341891</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1557516341891</updated>
+      <workItem from="1557516343066" duration="12655000" />
+      <workItem from="1557853004289" duration="7363000" />
+      <workItem from="1558579360287" duration="722000" />
+      <workItem from="1558967053906" duration="4161000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="24901000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25799572" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="8" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/Property/UtilityCosts.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="30" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/unit/Property/UtilityCostTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="713">
+          <caret line="51" column="57" selection-start-line="51" selection-start-column="57" selection-end-line="51" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Property/Options/Type.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Property/SpecialOffer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="713">
+          <caret line="78" selection-start-line="78" selection-end-line="78" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/unit/Property/SpecialOfferTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="31" column="1" selection-start-line="31" selection-start-column="1" selection-end-line="31" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/unit/CompanyTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="35" selection-start-line="23" selection-start-column="35" selection-end-line="23" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Property/ListingPhoto.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="373">
+          <caret line="46" selection-start-line="46" selection-end-line="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Property/PriceFrequency/Week.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="20" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Property/PriceFrequency/Month.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="21" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Property/PriceFrequency/Once.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="22" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Property/PriceFrequency/IPriceFrequency.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="1" lean-forward="true" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Property/ProviderType/Locator.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="23" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Property/ProviderType/BrokerOpen.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="26" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Property/ProviderType/PropertyManagementSoftware.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="32" lean-forward="true" selection-start-line="12" selection-start-column="32" selection-end-line="12" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Property/ProviderType/PropertyManager.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="33" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Property/ProviderType/IProviderType.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="40" selection-start-line="9" selection-start-column="40" selection-end-line="9" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Property/PriceFrequency/Day.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="19" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/unit/Property/PriceFrequency/DayTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="31" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/unit/Property/PriceFrequency/MonthTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="34" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/unit/Property/PriceFrequency/WeekTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="33" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/unit/Property/PriceFrequency/OnceTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="33" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Property/ProviderType/Agent.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="5" lean-forward="true" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Property/ProviderType/BrokerExclusives.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="32" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/unit/Property/PriceFrequency/BrokerExclusivesTest.php" />
+    <entry file="file://$PROJECT_DIR$/tests/unit/Property/ProviderType/BrokerOpenTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="1" lean-forward="true" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/unit/Property/ProviderType/BrokerExclusivesTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="26" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/unit/Property/ProviderType/AgentTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="1" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/unit/Property/ListingPhotoTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="7" lean-forward="true" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/unit/Property/ProviderType/PropertyManagementSoftwareTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="30" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/unit/Property/ProviderType/PropertyManagerTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="30" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/unit/Property/ProviderType/LocatorTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="36" selection-start-line="10" selection-start-column="36" selection-end-line="10" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Property.php" />
+    <entry file="file://$PROJECT_DIR$/composer.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="17" lean-forward="true" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Property/ListingType/Rental.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="26" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Property/ListingType/Corporate.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="15" selection-start-line="9" selection-start-column="15" selection-end-line="9" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Property/ListingType/Sublet.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="12" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Property/ListingType/Room.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Property/ListingType/Vacation.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Property/IListingType.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Property/PropertyType/Condo.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="26" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Property/PropertyType/House.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="36" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Property/PropertyType/TownHouse.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Property/Restrictions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Property/IPropertyType.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/RoommateListingProperty.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/IProperty.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="15" column="1" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Company.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="736">
+          <caret line="146" column="5" selection-start-line="146" selection-start-column="5" selection-end-line="146" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Feed.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ApartmentCommunityProperty.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/IndividualProperty.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="629">
+          <caret line="37" column="7" selection-start-line="37" selection-start-column="7" selection-end-line="37" selection-end-column="7" />
+          <folding>
+            <element signature="e#56#89#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/unit/IndividualPropertyTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="815">
+          <caret line="209" column="72" selection-start-line="209" selection-start-column="72" selection-end-line="209" selection-end-column="72" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

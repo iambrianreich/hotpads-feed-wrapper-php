@@ -1,0 +1,23 @@
+{
+    "name": "reichwebconsulting/hotpads-feed-wrapper-php",
+    "description": "A PHP wrapper for the HotPads XML Feed specification",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Reich Web Consulting",
+            "email": "help@reich-consulting.net"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "RWC\\HotPads\\": "src/"
+        }
+    },
+    "require": {
+        "ext-dom": "*"
+    },
+    "require-dev": {
+        "codeception/codeception": "^3.0"
+    }
+}
