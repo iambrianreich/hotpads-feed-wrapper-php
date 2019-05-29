@@ -22,7 +22,7 @@ use RWC\HotPads\Property\UtilityCosts;
  *
  * @package RWC\HotPads\Property
  */
-class IndividualProperty
+class IndividualProperty implements IProperty
 {
     /**
      * The id of the listing.
@@ -355,6 +355,16 @@ class IndividualProperty
     }
 
     /**
+     * Returns true if the property has restrictions.
+     *
+     * @return bool Returns true if the property has restrictions.
+     */
+    public function hasRestrictions() : bool
+    {
+        return $this->getRestrictions() != null;
+    }
+
+    /**
      * @return string
      */
     public function getName(): string
@@ -400,6 +410,16 @@ class IndividualProperty
     public function setAddress(Address $address): void
     {
         $this->address = $address;
+    }
+
+    /**
+     * Returns true if the property has Geolocation data.
+     *
+     * @return bool Returns true if the property has Geolocation data.
+     */
+    public function hasGeolocation() : bool
+    {
+        return ! empty($this->geolocation);
     }
 
     /**
@@ -496,6 +516,16 @@ class IndividualProperty
     public function setContactFax(string $contactFax): void
     {
         $this->contactFax = $contactFax;
+    }
+
+    /**
+     * Returns true if the IndividualProperty has any Open Houses.
+     *
+     * @return bool Returns true if the IndividualProperty has any Open Houses.
+     */
+    public function hasOpenHouses() : bool
+    {
+        return ! empty($this->openHouses);
     }
 
     /**
@@ -691,6 +721,16 @@ class IndividualProperty
     }
 
     /**
+     * Returns true if the property has any listing tags.
+     *
+     * @return bool Returns true if the property has any listing tags.
+     */
+    public function hasListingTags() : bool
+    {
+        return ! empty($this->listingTags);
+    }
+
+    /**
      * @return IListingTag[]
      */
     public function getListingTags(): array
@@ -723,6 +763,16 @@ class IndividualProperty
     }
 
     /**
+     * Returns true if the property has special offers.
+     *
+     * @return bool Returns true if the property has special offers.
+     */
+    public function hasSpecialOffers() : bool
+    {
+        return ! empty($this->specialOffers);
+    }
+
+    /**
      * @return SpecialOffer[]
      */
     public function getSpecialOffers(): array
@@ -736,6 +786,16 @@ class IndividualProperty
     public function setSpecialOffers(array $specialOffers): void
     {
         $this->specialOffers = $specialOffers;
+    }
+
+    /**
+     * Returns true if the Property has listing photos.
+     *
+     * @return bool Returns true if the Property has listing photos.
+     */
+    public function hasListingPhotos() : bool
+    {
+        return ! empty($this->listingPhotos);
     }
 
     /**

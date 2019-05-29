@@ -11,6 +11,4 @@ namespace RWC\HotPads;
 
 interface IProperty
 {
-    public function fromXmlElement(\DOMElement $element) : IProperty;
-    public function toXmlElement(\DOMDocument $document) : \DOMElement;
 }
